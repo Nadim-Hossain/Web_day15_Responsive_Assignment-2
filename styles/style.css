@@ -15,6 +15,28 @@ section {
     margin-bottom: 100px;
 }
 
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    background: #FF5400;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* nav bar styles start */
 
 
@@ -136,23 +158,75 @@ nav a:hover {
     background: #FF5400;
 }
 
-.find::placeholder{
+.find::placeholder {
     color: white;
 }
+
+/* our popular tours styles */
+.section-details{
+    display: flex;
+    gap: 20px;
+}
+.section-right-site{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+/* destination styles */
+.destination-description-section{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+    
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+.text-over-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 24px;
+}
+.tour-place-img{
+    display: flex;
+    gap: 50px;
+    
+}
+.img-one{
+    width: 573px;
+    height: 300px;
+}
+
+.img-two{
+    width: 573px;
+    height: 300px;
+}
+
 
 @media screen and (max-width: 600px) {
 
     nav,
     .logo,
     .nav-details,
-    .input-details {
+    .input-details,
+    .section-details{
         flex-direction: column;
     }
+
     .head-details {
         width: 100%;
         /* margin: auto; */
         padding-top: 20px;
     }
+
     .head-title {
         color: white;
         font-size: 54px;
@@ -163,8 +237,12 @@ nav a:hover {
         padding: 0;
     }
 
+    .section-right-site img{
+        width: 100%;
+    }
 
-  
+
+
 
 
 
