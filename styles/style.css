@@ -44,6 +44,8 @@ section {
     line-height: 26px;
 }
 
+
+
 /* nav bar styles start */
 
 
@@ -245,7 +247,7 @@ nav a:hover {
 }
 
 /* why choose us section */
-.choose-option{
+.choose-option {
     display: flex;
     gap: 24px;
     padding-left: 32px;
@@ -254,9 +256,70 @@ nav a:hover {
 
 /* why choose us section 2nd part */
 
-.best-price-area{
+.best-price-area {
     width: 40%;
     margin: auto;
+}
+
+/* deals & discounts area styles */
+.offer-describ {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* deals & discounts images secion */
+.tour-booking-area {
+    width: 1170px;
+    height: 500px;
+    background-image: url("../images/Group\ 39.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tour-booking-descrip {
+    width: 579px;
+    height: 389px;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 16px;
+    border: 2px white solid;
+    margin-left: 530px;
+}
+
+.tour-booking-area-two{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.tour-booking-descrip-two{
+    margin-left: 30px;
+}
+
+.booking-title {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 50px;
+}
+
+.title-icon {
+    margin-left: 20px;
+}
+
+.tour-area-name {
+    margin-left: 25px;
+}
+
+.price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#packages-btn{
+    margin-left: 500px;
 }
 
 
@@ -274,50 +337,66 @@ nav a:hover {
     .tour-place-img-part-two,
     .tour-place-img-part-three,
     .choose-option,
-    .best-price-area {
+    .best-price-area,
+    .booking-title {
         flex-direction: column;
     }
 
-    .head-details,
-     {
-        width: 100%;
-        /* margin: auto; */
-        padding-top: 20px;
-    }
+    .head-details{
+    width: 100%;
+    /* margin: auto; */
+    padding-top: 20px;
+}
 
-    .best-price-area{
-        width: 100%;
-        margin-left:45px;
-    }
+.tour-booking-area{
+    width: 98%;
+    height: 550px;
+}
 
-    .head-title {
-        color: white;
-        font-size: 54px;
-        font-weight: 700;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-        padding: 0;
-    }
+.tour-booking-descrip {
+    width: 600px;
+    height: 480px;
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 16px;
+    border: 2px white solid;
+    margin: 5px;
+}
+.tour-area-name {
+    margin-left: 15px;
+}
 
-    .section-right-site img {
-        width: 100%;
-    }
+.best-price-area {
+    width: 100%;
+    margin-left: 45px;
+}
 
-    .destination-img {
-        width: 500px;
-        height: 250px;
-    }
+.head-title {
+    color: white;
+    font-size: 54px;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+.section-right-site img {
+    width: 100%;
+}
+
+.destination-img {
+    width: 500px;
+    height: 250px;
+}
+
+#packages-btn{
+    margin-left: 25px;
+}
 
 
 
-
-
-
-
-
-    nav a {
-        width: 100%;
-        text-align: center;
-    }
+nav a {
+    width: 100%;
+    text-align: center;
+}
 }
