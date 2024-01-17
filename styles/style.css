@@ -450,6 +450,23 @@ footer{
     margin-bottom: 50px;
 }
 
+/* extra work styles */
+.video-area video{
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.extra-work{
+    display: flex;
+    gap: 80px;
+}
+
+#extra-head{
+    width: 80%;
+    margin: auto;
+}
+
 
 
 
@@ -467,7 +484,8 @@ footer{
     .best-price-area,
     .booking-title,
     .simple-place-section,
-    .letter-part {
+    .letter-part,
+    .extra-work {
         flex-direction: column;
     }
 
