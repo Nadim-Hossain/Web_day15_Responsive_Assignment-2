@@ -30,6 +30,13 @@ section {
     font-weight: 800;
 }
 
+.section-mini-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
 .section-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -224,11 +231,36 @@ nav a:hover {
 
 /* tour place img part three, 2 images styles */
 
-.tour-place-img-part-three{
+.tour-place-img-part-three {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
 }
+
+/* choose us section styles  */
+.choose-us-area {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+/* why choose us section */
+.choose-option{
+    display: flex;
+    gap: 24px;
+    padding-left: 32px;
+    margin-bottom: 50px;
+}
+
+/* why choose us section 2nd part */
+
+.best-price-area{
+    width: 40%;
+    margin: auto;
+}
+
+
+
 
 
 @media screen and (max-width: 600px) {
@@ -240,14 +272,22 @@ nav a:hover {
     .section-details,
     .tour-place-img,
     .tour-place-img-part-two,
-    .tour-place-img-part-three{
+    .tour-place-img-part-three,
+    .choose-option,
+    .best-price-area {
         flex-direction: column;
     }
 
-    .head-details {
+    .head-details,
+     {
         width: 100%;
         /* margin: auto; */
         padding-top: 20px;
+    }
+
+    .best-price-area{
+        width: 100%;
+        margin-left:45px;
     }
 
     .head-title {
